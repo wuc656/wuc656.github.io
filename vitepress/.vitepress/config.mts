@@ -2,27 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "吳彥東(東東wuc656) 網誌",
-  description: "吳彥東(東東wuc656) 個人網誌 blog",
+  title: "wuc656's blog",
+  description: "吳彥東(東東wuc656) blog",
   themeConfig: {
+    logo: '/dong.svg',
+    outlineTitle: "目錄",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首頁', link: '/' },
+      { text: '個人介紹', link: '/wuc656' },
+      { text: '範例', link: '/markdown-examples' }
     ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/wuc656' }
     ]
-  }
+  },
+  head: [
+    ['link', { rel: "icon", type: "image/x-icon", href: "/favicons.ico" }]
+  ],
 })
