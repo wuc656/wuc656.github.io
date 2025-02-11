@@ -20,4 +20,8 @@ export default defineConfig({
   head: [
     ['link', { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   ],
+  sitemap: {
+    hostname: 'https://wuc656.github.io'
+  },
+  lastUpdated: true
 })

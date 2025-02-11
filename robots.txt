@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://wuc656.github.io/sitemap.xml
