@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "wuc656's blog",
+  title: "wuc656 blog",
   description: "吳彥東(東東wuc656) blog",
   themeConfig: {
     logo: '/dong.svg',
