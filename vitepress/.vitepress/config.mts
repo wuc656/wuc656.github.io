@@ -57,6 +57,13 @@ export default defineConfig({
       prev: '上一頁',
       next: '下一頁'
     },
+    lastUpdated: {
+    text: '最後更新於',
+    formatOptions: {
+      dateStyle: 'full',
+      timeStyle: 'full'
+    }
+  }
   },
   head: [
     ['link', { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
