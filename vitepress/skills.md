@@ -1,3 +1,9 @@
+---
+title: 技術能力
+description: 吳彥東的後端、前端、桌面應用、系統維護與開源技能整理。
+outline: [2, 3]
+---
+
 # 技術能力
 
 <div style="text-align: center; margin-bottom: 2rem;">

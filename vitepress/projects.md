@@ -1,3 +1,9 @@
+---
+title: 專案作品
+description: 吳彥東的主要專案與作品，包含 Minecraft 伺服器、Android 小作品、畢業微電影、開源與影音內容。
+outline: [2, 3]
+---
+
 # 專案作品
 
 <div style="text-align: center; margin-bottom: 2rem;">

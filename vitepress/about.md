@@ -1,3 +1,9 @@
+---
+title: 關於我
+description: 吳彥東（東東 / wuc656）的個人背景、教育經歷、兵役、個人特質與 GitHub 資訊。
+outline: [2, 3]
+---
+
 # 關於我
 
 <div style="text-align: center; margin-bottom: 2rem;">

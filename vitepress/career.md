@@ -1,3 +1,9 @@
+---
+title: 職涯歷程
+description: 吳彥東從學生、自學、軍事訓練役到 CMIS 軟體工程師的職涯時間軸。
+outline: [2, 3]
+---
+
 # 職涯歷程
 
 <div style="text-align: center; margin-bottom: 2rem;">

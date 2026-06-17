@@ -1,3 +1,9 @@
+---
+title: 聯絡方式
+description: 吳彥東（wuc656）的 Email、GitHub、個人網站、社群媒體與開發者平台連結。
+outline: [2, 3]
+---
+
 # 聯絡方式
 
 <div style="text-align: center; margin-bottom: 2rem;">
