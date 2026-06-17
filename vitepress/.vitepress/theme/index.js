@@ -1,16 +1,17 @@
 import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
-import { toRefs } from "vue";
 import '@theojs/lumen/style'
+import { googleAnalytics } from '@theojs/lumen'
+
 
 export default {
     extends: DefaultTheme,
-    enhanceApp(ctx) {
-        DefaultTheme.enhanceApp(ctx);
+    enhanceApp() {
+        googleAnalytics({ id: 'G-9BBBQKGV7Y' });
     },
     setup() {
-        const { frontmatter } = toRefs(useData());
+        const { frontmatter } = useData();
         const route = useRoute();
         giscusTalk({
             repo: 'wuc656/wuc656.github.io',
@@ -27,8 +28,6 @@ export default {
             homePageShowComment: false,
             lightTheme: 'light',
             darkTheme: 'transparent_dark',
-        }, {
-            frontmatter, route
-        }, true);
+        }, { frontmatter, route }, true);
     }
 };
