@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-TW',
   title: "wuc656 blog",
-  titleTemplate: ':title | wuc656',
   description: "吳彥東(東東wuc656) blog",
   cleanUrls: true,
   markdown: {
