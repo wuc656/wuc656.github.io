@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import '@theojs/lumen/style'
+import './custom.css'
 import { googleAnalytics } from '@theojs/lumen'
 
 
